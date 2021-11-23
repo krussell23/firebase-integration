@@ -1,3 +1,1 @@
-import Brand from "./brand";
-
-export default Brand
+export {default as Brand } from './brand'
