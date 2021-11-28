@@ -1,6 +1,5 @@
-import { useAuth } from "libs/hooks/useAuth";
-import { useRouter } from "next/router";
 import { useAuth } from "lib/hooks/useAuth";
+import { useRouter } from "next/router";
 import { signOut } from "@firebase/auth"
 
 import { auth } from "lib/firebase";
@@ -28,7 +27,7 @@ function UserLoginStatus({ size, color, status, ...props }) {
       <LoginStatus {...props} onClick={handleClick} bgcolor="#d6fecd">
         <IoPersonCircleSharp size={size || "1.75rem"} />
         <figcaption>
-          <p>Status</p>
+          <p>display name</p>
           <p>logout</p>
         </figcaption>
       </LoginStatus>
@@ -47,4 +46,5 @@ function UserLoginStatus({ size, color, status, ...props }) {
 }
 
 export default UserLoginStatus;
+
 

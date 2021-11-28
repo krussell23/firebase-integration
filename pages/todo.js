@@ -10,14 +10,14 @@ function ToDoPage(props) {
     return (
       <>
         <AppBar></AppBar>
-        <Title>YOU&#39;RE NOT WELCOME, GO AWAY</Title>
+        <Title>YOURE NOT WELCOME, GO AWAY</Title>
       </>)
   }
 
   return (
     <>
       <AppBar />
-      <Title>Render The User&#39;s Todo List</Title>
+      <Title>Render The User Todo List</Title>
     </>
   )
 
