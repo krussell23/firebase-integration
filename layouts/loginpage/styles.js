@@ -1,6 +1,7 @@
 import styled from 'styled-components'
  
 const PageLayout = styled.div`
+
     max-width: 460px;
     margin: 3rem auto 0;
     padding: 3rem 2rem;
@@ -10,6 +11,8 @@ const PageLayout = styled.div`
     .jim{
         background-color: blue;
     }
+
+    
     
 `
 
@@ -21,13 +24,16 @@ const PageHeader = styled.header`
 const PageFooter = styled.footer`
       padding: 2rem 0;
 `
-
-const PageContent = styled.aside`
-       
+const PageBody = styled.main`
+       .spacing{
+           padding:2rem 0;
+       }
+    
 `
 
  
+ 
 
-export {PageLayout, PageHeader, PageFooter, PageContent }
+export {PageLayout, PageHeader, PageFooter, PageBody }
 
  

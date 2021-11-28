@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { ProviderButton } from "ui/buttons";
 import google from "./google.png";
 

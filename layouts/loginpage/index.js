@@ -1,1 +1,1 @@
-export {PageLayout, PageHeader, PageFooter, PageContent} from './styles'
+export {PageLayout, PageHeader, PageFooter, PageBody} from './styles'

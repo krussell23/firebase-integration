@@ -3,7 +3,7 @@ import styled from 'styled-components'
  
 
 const Button = styled.button`
-   width:100%;
+   width: ${props => props.width || '100%'};
    background-color: ${props => props.bgcolor || "transparent"};;
    border:none;
    border-radius: 4px;
