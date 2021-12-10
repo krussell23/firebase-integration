@@ -2,15 +2,15 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 
 import { v4 as uuid } from 'uuid'
-import {doc, getDoc, setDoc } from 'firebase/firestore'
+import { doc, getDoc, setDoc } from 'firebase/firestore'
 
 import { useAuth } from "lib/hooks/useAuth";
 import { AddNewItem, ItemID, AddItem, ItemDescription } from "./styles";
 import { Button } from "ui/buttons"
 import { AppBar } from 'components/appbar'
-import {db} from 'lib/firebase'
+import { db } from 'lib/firebase'
+import firebaseConfig from "lib/firebase/firebaseConfig"
 import { Brand } from "components/brand";
-import { db } from "lib/firebase";
 
 function AddNewItemPage({ ...props }) {
   const user = useAuth()
@@ -27,12 +27,12 @@ function AddNewItemPage({ ...props }) {
       id,
       description
     }
-    const docPath = `/users/${user.uid}`
+    const docPath = 'users/ovXWSdYWlvRFK8reOkGC5Be3qiU2'
     const userDoc = doc(db, docPath)
-    getDoc(userDoc).then(doc=>{
+    getDoc(userDoc).then(doc => {
 
     })
-    
+
     // send the to do to firebase
   }
 

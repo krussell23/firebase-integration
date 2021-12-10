@@ -5,6 +5,7 @@ import { Spacer } from "ui/spacers"
 import { UserLogin } from "components/authentication/user-login"
 import { Legal, HighLight } from "ui/legal"
 import { PageLayout, PageHeader, PageFooter, PageBody } from 'layouts/loginpage'
+import { UserLoginStatus } from "components/authentication/login-status"
 
 function Index() {
 
