@@ -43,29 +43,29 @@ const PageHeader = styled.header`
 
 function index(props) {
 
-    return (
-        <>
+  return (
+    <>
 
-            <PageHeader>
-                <Brand className="brand" width="148" size="5rem" display="column" />
+      <PageHeader>
+        <Brand className="brand" width="148" size="5rem" display="column" />
 
-                <p>official task management tool for tools</p>
-                <LinksContainer>
-                    <Link href="/signup">
-                        <Button bgcolor="#0fa9ec" color="#ffffff">new user account setup</Button>
-                    </Link>
-                    <Link href="/login">
-                        <Button bgcolor="#0071e3" color="white">current user account login</Button>
-                    </Link>
-                </LinksContainer>
-                <ul>
-                    <li>No Credit Card Required</li>
-                    <li>Upgrade your account at anytime</li>
-                </ul>
-            </PageHeader>
+        <p>official task management tool for tools</p>
+        <LinksContainer>
+          <Link href="/signup">
+            <Button bgcolor="#0fa9ec" color="#ffffff">new user account setup</Button>
+          </Link>
+          <Link href="/login">
+            <Button bgcolor="#0071e3" color="white">current user account login</Button>
+          </Link>
+        </LinksContainer>
+        <ul>
+          <li>No Credit Card Required</li>
+          <li>Upgrade your account at anytime</li>
+        </ul>
+      </PageHeader>
 
-        </>
-    );
+    </>
+  );
 }
 
 export default index;
