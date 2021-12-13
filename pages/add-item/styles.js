@@ -30,7 +30,7 @@ const AddNewItem = styled.aside`
     margin:0;
     font-weight: bold;
 }
-`
+`;
 const ItemID = styled.div`
 
   
@@ -48,6 +48,6 @@ const ItemDescription = styled.div`
 
 const ItemCategory = styled.div`
 `
- 
 
-export {AddNewItem, ItemID, AddItem, ItemDescription}
+
+export { AddNewItem, ItemID, AddItem, ItemDescription }
