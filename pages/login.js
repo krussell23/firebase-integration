@@ -7,7 +7,7 @@ import { Legal, HighLight } from "ui/legal"
 import { PageLayout, PageHeader, PageFooter, PageBody } from 'layouts/loginpage'
 import { UserLoginStatus } from "components/authentication/login-status"
 
-function Index() {
+function login() {
 
     return (
         <>
@@ -33,4 +33,4 @@ function Index() {
 
 
 
-export default Index
+export default login;

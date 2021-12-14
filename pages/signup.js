@@ -6,7 +6,7 @@ import { UserLogin } from "components/authentication/user-login"
 import { Legal, HighLight } from "ui/legal"
 import { PageLayout, PageHeader, PageFooter, PageBody } from 'layouts/loginpage'
 
-function Index() {
+function signup() {
 
     return (
         <>
@@ -32,4 +32,4 @@ function Index() {
 
 
 
-export default Index
+export default signup;
